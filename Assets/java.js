@@ -30,14 +30,14 @@ startBtn.addEventListener('click', event =>{
     if (questionCounter == 1){
         document.getElementById('question').innerHTML = `
         <h1>Question: ${questionCounter}</h1>
-        <h2>In the office who is the boss?</h2>
+        <h2>What does CSS stand for?</h2>
     
     `
     
-    document.getElementById('answer1').innerText = `Michael`
-    document.getElementById('answer2').innerText = `Pam`
-    document.getElementById('answer3').innerText = `Jim`
-    document.getElementById('answer4').innerText = `Kevin`
+    document.getElementById('answer1').innerText = `Cascading Style Sheets`
+    document.getElementById('answer2').innerText = `Chicken Super Sauce`
+    document.getElementById('answer3').innerText = `Counting Super Slow`
+    document.getElementById('answer4').innerText = `Click Secret Sources`
     
     
     answer1.addEventListener('click', event =>{
